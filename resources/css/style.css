@@ -77,6 +77,56 @@ header{
         border-bottom: 2px solid #e67e22;
     }
 
+/*----------FEATURES----------*/
+
+.section-features .long-copy{
+    margin-bottom: 30px;
+}
+
+
+/*----------MEALS----------*/
+
+.section-meals{
+    padding: 0;
+}
+
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.measl-photo{
+    width: 100%;
+    margin: 0; 
+    background-color: #000;
+    overflow: hidden;   
+}
+
+.measl-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s,opacity 0.3s;
+}
+ 
+
+.measl-photo img:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
+
+
+
+
 /*----------HEADING----------*/
 
 h1,h2,h3{
