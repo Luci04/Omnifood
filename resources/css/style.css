@@ -153,6 +153,12 @@ steps-box:last-child{
     margin: 70px;
 }
 
+.btn-app:link,
+.btn-app:visited
+{
+    border:0;
+}
+
 .app-screen{
     width: 50%;
 }
@@ -170,7 +176,7 @@ steps-box:last-child{
     border: 2px solid #e67e22;
     display: inline-block;
     border-radius: 50%;
-    height: 55px;
+    height: 54px;
     width: 55px;
     text-align: center;
     padding: 5px;
@@ -295,3 +301,48 @@ background-color: #cf6d17;
     border: 1px solid #cf6d17;
 }
 
+/*----------LINKS----------*/
+a:link,
+a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 2px;
+transition: border-bottom 0.2s,color 0.2s;
+}
+
+a:hover,a:active{
+color: #555;
+border-bottom: 1px solid transparent;
+
+}
+
+/*----------CITIES SECTION----------*/
+
+.section-cities{
+width: 100%;
+}
+
+.section-cities div img{
+    width: 100%;
+    margin-bottom: 15px;
+    height: auto;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+/*----------ICONS----------*/
+
+.small-icon{
+    color: #e67e22;
+    display: inline-block;
+    width:  30px;
+    font-size: 120%;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
