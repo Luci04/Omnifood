@@ -183,7 +183,7 @@ header{
 
 /*----------HOW IT WORKS----------*/
 .section-steps{
-    background: grey;
+    background: rgb(252, 249, 249);
 }
 
 
@@ -609,3 +609,9 @@ footer p {
     margin-top: 20px;
 }
 
+
+/*----------ANIMATION----------*/
+
+.js--wp-1{
+    opacity: 1;
+}
